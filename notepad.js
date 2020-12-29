@@ -4,7 +4,7 @@ const rxOps = require("rxjs/operators");
 // Number ops
 
 const { range, from, timer, of } = rx
-const { map, filter, pluck, distinct, mergeMap, catchError } = rxOps
+const { map, filter, pluck, distinct, mergeMap, switchMap, catchError } = rxOps
 const { log } = console
 
 const isEven = x => x % 2 === 1;
@@ -44,12 +44,11 @@ const xOf = x => of(x)
 const myBadPromise = () =>
     new Promise((resolve, reject) => reject('Rejected!'));
 
-const source = timer(1000);
-
-const example = source.pipe(
-    mergeMap(_ =>
-        from(myBadPromise())
-            .pipe(catchError(xOf))
+const example = timer(200).pipe(
+    mergeMap(x => {
+            return from(myBadPromise())
+                .pipe(catchError(xOf))
+        }
     )
 );
 

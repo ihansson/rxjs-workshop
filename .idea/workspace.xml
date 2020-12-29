@@ -4,8 +4,6 @@
     <list default="true" id="befb6745-7f68-464b-9ce3-1b9e0ec84821" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notepad.js" beforeDir="false" afterPath="$PROJECT_DIR$/notepad.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609170664441</updated>
       <workItem from="1609170665563" duration="3891000" />
-      <workItem from="1609221275186" duration="2168000" />
+      <workItem from="1609221275186" duration="2735000" />
     </task>
     <task id="LOCAL-00001" summary="array methods">
       <created>1609171695231</created>
@@ -86,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609221454576</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="notebook exploring">
+      <created>1609223459903</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609223459903</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +115,7 @@
     <MESSAGE value="ex 12" />
     <MESSAGE value="final arr method exercises" />
     <MESSAGE value="add deps" />
-    <option name="LAST_COMMIT_MESSAGE" value="add deps" />
+    <MESSAGE value="notebook exploring" />
+    <option name="LAST_COMMIT_MESSAGE" value="notebook exploring" />
   </component>
 </project>
